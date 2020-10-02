@@ -1,0 +1,42 @@
+header {
+  background-color: #333330;
+  text-align: center;
+  display: block;
+  color: white;
+  padding: 40px;
+  font-size: 500;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.topBar {
+  font-size: 50px;
+}
+.rightSide {
+  display: block;
+
+  margin-right: 20px;
+  font-weight: bold;
+  float: right;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+table {
+  margin: 0;
+}
+.links {
+  text-align: left;
+}
+
+.rightText {
+  text-align: right;
+  margin-right: 20px;
+}
+
+p {
+  margin-left: 20px;
+}
