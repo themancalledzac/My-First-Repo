@@ -51,7 +51,8 @@ h1 {
 }
 h2 {
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
+  text-align: right;
+  margin-right: 20px;
 }
 
 .links {
@@ -77,14 +78,13 @@ p {
 li {
 }
 
-.contactInfo {
+.links {
   display: block;
   text-align: right;
-  margin-right: 20px;
 }
 a:link,
 a:visited {
-  background-color: #ff4433;
+  background-color: #4b86ad;
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -94,5 +94,16 @@ a:visited {
 }
 a:hover,
 a:active {
-  background-color: red;
+  background-color: rgb(43, 94, 114);
+}
+
+.contactInfos {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(37, 85, 75);
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
 }
