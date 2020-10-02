@@ -1,5 +1,5 @@
 header {
-  background-color: #333330;
+  background-image: url("DSC_6257-Pano-2.jpg");
   text-align: center;
   display: block;
   color: white;
@@ -7,6 +7,29 @@ header {
   font-size: 500;
   margin-right: 20px;
   margin-left: 20px;
+  margin-top: 20px;
+}
+
+.topBar {
+  grid-area: header;
+}
+.leftSide {
+  grid-area: leftSide;
+}
+.rightSide {
+  grid-area: rightSide;
+}
+.footer {
+  grid-area: footer;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header"
+    "leftSide leftSide rightSide rightSide"
+    "leftSide leftSide rightSide rightSide"
+    "leftSide leftSide rightSide rightSide"
+    "footer footer footer footer";
 }
 
 .topBar {
@@ -18,16 +41,18 @@ header {
   margin-right: 20px;
   font-weight: bold;
   float: right;
+  margin-left: 20px;
 }
 
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px #666666;
+}
 h2 {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 
-table {
-  margin: 0;
-}
 .links {
   text-align: left;
 }
@@ -39,4 +64,11 @@ table {
 
 p {
   margin-left: 20px;
+  text-indent: 2em;
+}
+
+.leftSide {
+  display: block;
+  margin-right: 20px;
+  margin-top: 50px;
 }
